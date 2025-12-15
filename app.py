@@ -13,7 +13,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("mnist_cnn_99.keras")
+    return tf.keras.models.load_model("mnist_cnn_final_99.keras")
 
 model = load_model()
 
